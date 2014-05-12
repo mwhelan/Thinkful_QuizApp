@@ -47,6 +47,8 @@ img {
 .badgeBody {
     color: #000000;
     font-size: 35px;
+    background-color: #ffffff !important;
+    border: none !important;
 }
 
 .panel-heading {
@@ -76,15 +78,22 @@ img {
     width: 350px;
     height: 65px;
     background-color: darkblue;
-    display: inline-block;
     font-size: 20px;
     margin-bottom: 30px;
     text-align: left;
+    display: table-cell;
+    vertical-align: middle;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    cursor: pointer;
 }
 
 .answer :hover {
     cursor: pointer;
+}
+
+.bootstrap-dialog-message {
+    font-weight: bold;
+    font-size: 20px !important;
 }
 
