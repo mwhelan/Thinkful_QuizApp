@@ -33,6 +33,7 @@ img {
 }
 
 #quizBoard {
+    display: none;
     width: 950px;
     height: 450px;
     background-color: #293051;

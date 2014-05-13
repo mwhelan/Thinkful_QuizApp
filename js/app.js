@@ -1,10 +1,15 @@
 $(document).ready(function () {
-    newQuiz();
-
     $(".answer").click(function(event){
         event.preventDefault();
         var selectedNumber = + $(this).attr("id").substring(6);
         answerQuestion(selectedNumber);
+    });
+
+    $("#playMusic").click(function(event){
+        event.preventDefault();
+        $("#menu").hide();
+        $("#quizBoard").show();
+        newQuiz();
     });
 });
 
@@ -44,7 +49,7 @@ function finish() {
         }
     }
 
-    var message = "You are finished. You scored " + score + " out of a possible" + quiz.questions.length + ".";
+    var message = "That's it! You're finished. You scored " + score + " out of a possible " + quiz.questions.length + ".";
     showFinish(message);
 }
 
