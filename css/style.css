@@ -70,6 +70,7 @@ img {
     background-color: black;
     display: inline-block;
     font-size: 35px;
+    line-height: 60px;
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -80,10 +81,9 @@ img {
     height: 65px;
     background-color: darkblue;
     font-size: 20px;
+    line-height: 60px;
     margin-bottom: 30px;
     text-align: left;
-    display: table-cell;
-    vertical-align: middle;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     cursor: pointer;
